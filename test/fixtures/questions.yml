@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  image1: MyString
+  image2: MyString
+  image3: MyString
+  image4: MyString
+  marks: 1
+  answer: MyString
+  difficulty: 1
+  level: 1
+
+two:
+  name: MyString
+  image1: MyString
+  image2: MyString
+  image3: MyString
+  image4: MyString
+  marks: 1
+  answer: MyString
+  difficulty: 1
+  level: 1
