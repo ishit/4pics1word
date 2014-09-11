@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140905211709) do
+ActiveRecord::Schema.define(version: 20140911184509) do
 
   create_table "questions", force: true do |t|
     t.string   "name"
@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(version: 20140905211709) do
     t.datetime "updated_at"
     t.integer  "score",                  default: 0
     t.string   "name"
+    t.string   "username"
   end
 
 end
