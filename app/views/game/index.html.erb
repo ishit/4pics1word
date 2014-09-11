@@ -1,0 +1,10 @@
+<h1>Welcome to the Game page.</h1>
+<p><%=@ques[@number]["image1"]%> <%=@ques[@number]["image2"]%> <%=@ques[@number]["image3"]%> <%=@ques[@number]["image4"]%></p>
+
+<%= form_tag("game", method: "post") do %>
+  <%= label_tag(:answer, "Answer: ") %>
+  <%= text_field_tag(:answer) %>
+  <%= hidden_field_tag(:correct, value = @ques[@number]["answer"]) %>
+  <%= submit_tag("Go!") %>
+<% end %>
+

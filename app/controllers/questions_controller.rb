@@ -7,6 +7,10 @@ class QuestionsController < ApplicationController
     @questions = Question.all
   end
 
+  def game
+    @ques = Question(:all).sample(1)
+  end
+  
   # GET /questions/1
   # GET /questions/1.json
   def show

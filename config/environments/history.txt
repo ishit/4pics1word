@@ -1,0 +1,1000 @@
+ 1056  gdb a.out
+ 1057  gcc status_system.c 
+ 1058  gdb a.out
+ 1059  1
+ 1060  ./a.out 1
+ 1061  gcc status_system.c 
+ 1062  ./a.out 1
+ 1063  gdb a.out
+ 1064  gcc status_system.c 
+ 1065  ./a.out 1
+ 1066  gcc status_system.c 
+ 1067  ./a.out 1
+ 1068  gcc status_system.c 
+ 1069  ./a.out 1
+ 1070  gcc status_system.c 
+ 1071  ./a.out 1
+ 1072  gcc status_system.c 
+ 1073  ./a.out 1
+ 1074  gcc status_system.c 
+ 1075  ./a.out 1
+ 1076  gcc status_system.c 
+ 1077  ./a.out 1
+ 1078  gcc status_system.c 
+ 1079  ./a.out 1
+ 1080  gcc status_system.c 
+ 1081  ./a.out 1
+ 1082  gcc status_system.c 
+ 1083  ./a.out 1
+ 1084  gcc status_system.c 
+ 1085  ./a.out 1
+ 1086  gcc status_system.c 
+ 1087  ./a.out 1
+ 1088  gcc status_system.c 
+ 1089  ./a.out 1
+ 1090  gcc status_system.c 
+ 1091  ./a.out 1
+ 1092  gcc status_system.c 
+ 1093  ./a.out 1
+ 1094  gcc status_system.c 
+ 1095  ./a.out 1
+ 1096  gcc status_system.c 
+ 1097  ./a.out 1
+ 1098  gcc status_system.c 
+ 1099  ./a.out 1
+ 1100  gcc status_system.c 
+ 1101  ./a.out 1
+ 1102  gcc status_system.c 
+ 1103  ./a.out 1
+ 1104  gcc status_system.c 
+ 1105  ./a.out 1
+ 1106  gcc status_system.c 
+ 1107  ./a.out 1
+ 1108  gcc status_system.c 
+ 1109  ./a.out 1
+ 1110  gcc status_system.c 
+ 1111  ./a.out 1
+ 1112  gcc status_system.c 
+ 1113  ./a.out 1
+ 1114  gcc status_system.c 
+ 1115  ./a.out 1
+ 1116  gcc status_system.c 
+ 1117  ./a.out 1
+ 1118  gcc status_system.c 
+ 1119  ./a.out 1
+ 1120  gcc status_system.c 
+ 1121  ./a.out 1
+ 1122  gcc status_system.c 
+ 1123  ./a.out 1
+ 1124  gcc status_system.c 
+ 1125  ./a.out 1
+ 1126  gcc status_system.c 
+ 1127  ./a.out 1
+ 1128  clear
+ 1129  gcc status_system.c 
+ 1130  clear
+ 1131  ./a.out 1
+ 1132  gcc status_system.c 
+ 1133  ./a.out 1
+ 1134  gcc status_system.c 
+ 1135  ./a.out 1
+ 1136  gcc status_system.c 
+ 1137  ./a.out 1
+ 1138  ./a.out 2
+ 1139  ./a.out 1231231
+ 1140  ps -aux
+ 1141  ./a.out 3471
+ 1142  gcc status_system.c 
+ 1143  ltrace -o ltrace_out2 ./a.out 1
+ 1144  vim ltrace_out2
+ 1145  cat strace ./a.out 1
+ 1146  strace ./a.out 1
+ 1147  strace -o strace_out2 ./a.out 1
+ 1148  vim strace_out2 
+ 1149  gcc status_library.c 
+ 1150  ./a.out 1
+ 1151  ltrace -o ltrace_out1 ./a.out 1
+ 1152  strace -o strace_out1 ./a.out 1
+ 1153  clear
+ 1154  synclient fingerhigh=40
+ 1155  synclient fingerlow=40
+ 1156  ping -c 3 googl.com
+ 1157  cd /tmp
+ 1158  git clone https://github.com/mhartl/rails_tutorial_sublime_text.git
+ 1159  cp -r rails_tutorial_sublime_text/*         ~/.config/sublime-text-2/Packages/User/
+ 1160  sudo ln -s ~/Applications/Sublime\ Text\ 2/sublime_text /usr/bin/subl
+ 1161  gedit ~/.bashrc
+ 1162  cd ~/Applications
+ 1163  sudo ln -s ~/Sublime\ Text\ 2/sublime_text /usr/bin/subl
+ 1164  sudo rm /usr/bin/subl
+ 1165  sudo ln -s ~/Sublime\ Text\ 2/sublime_text /usr/bin/subl
+ 1166  gedit ~/.bashrc
+ 1167  cd /etc/apt-get
+ 1168  cd /etc/apt
+ 1169  cd sources.list.d/
+ 1170  ls
+ 1171  rm pitti-postgresql-trusty.list 
+ 1172  sudo rm pitti-postgresql-trusty.list 
+ 1173  clear
+ 1174  sudo apt-get update
+ 1175  vim /etc/apt/sources.list.d
+ 1176  vim /etc/apt/sources.list
+ 1177  sudo rm -fr /etc/apt/sources.list
+ 1178  sudo apt-get update
+ 1179  ruby
+ 1180  lsof -wni tcp:3000
+ 1181  kill -9 2424
+ 1182  synclient fingerhigh=40
+ 1183  synclient fingerlow=40
+ 1184  ps -aux
+ 1185  ps -aux | grep rails
+ 1186  man 2 syscall
+ 1187  nm-applet
+ 1188  cd Documents/ror/
+ 1189  cd first_app/
+ 1190  git config --global user.name = "Ishit"
+ 1191  git config --global user.name = "Ishit Mehta"
+ 1192  git config --global user.email = "mehta.ib@gmail.com"
+ 1193  git config --global alias.co checkout
+ 1194  git config --global core.editor "subl -w"
+ 1195  git init
+ 1196  git add .
+ 1197  git status
+ 1198  git commit -m "Initialized repository."
+ 1199  git log
+ 1200  ls app/controllers/
+ 1201  bundle packages
+ 1202  bundle install
+ 1203  rake assets:precompile
+ 1204  git add .
+ 1205  git commit -m "Add precompiled asstes for Heroku"
+ 1206  heroku login
+ 1207  wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+ 1208  sudo apt-get install heroku
+ 1209  heroku login
+ 1210  heroku create
+ 1211  git push heroku master
+ 1212  heroku open
+ 1213  git remote add origin https://github.com/ishit/4pics1word.git
+ 1214  git push -u origin master
+ 1215  clear
+ 1216  rails generate scaffold User name:string email:string
+ 1217  bundle exec rake db:migrate
+ 1218  rail s
+ 1219  rail server
+ 1220  rails server
+ 1221  mv /home/ishit/Documents/ror/first_app/tmp/pids server.pid ~/Desktop/server.pid
+ 1222  mv /home/ishit/Documents/ror/first_app/tmp/pids server.pid ~/Desktop
+ 1223  rails server
+ 1224  celar
+ 1225  clear
+ 1226  rais server
+ 1227  rails server
+ 1228  rm tmp/pids/server.pid 
+ 1229  clear
+ 1230  rails server
+ 1231  clear
+ 1232  ps -aux
+ 1233  ps -aux | grep rails
+ 1234  kill -9 5508
+ 1235  rails server
+ 1236  kill -9 13487
+ 1237  cd ~/Sublime\ Text\ 2/
+ 1238  ls
+ 1239  cd Pristine\ Packages/
+ 1240  ls
+ 1241  git clone https://github.com/mhartl/rails_tutorial_snippets.git RailsTutorial
+ 1242  ls
+ 1243  cd ..
+ 1244  cd .config
+ 1245  ls
+ 1246  cd sublime-text-2/
+ 1247  cd Packages/
+ 1248  git clone https://github.com/mhartl/rails_tutorial_snippets.git RailsTutorial
+ 1249  ruby -v
+ 1250  sudo apt-get install rbenv
+ 1251  sudo apt-get remov rbenv
+ 1252  sudo apt-get remove rbenv
+ 1253  curl -sSL https://get.rvm.io | bash -s stable
+ 1254  rvm get stable
+ 1255  rvm requirements
+ 1256  cd ~
+ 1257  vim .rvm/scripts/rvm 
+ 1258  source .rvm/scripts/rvm 
+ 1259  sudo apt-get install libyaml-dev
+ 1260  rvm install 2.0.0 --with-openssl-dir=$HOME/.rvm/usr
+ 1261  sudo apt-get update
+ 1262  rvm install 2.0.0 --with-openssl-dir=$HOME/.rvm/usr
+ 1263  cd /etc/apt/sources.list.d/
+ 1264  ls
+ 1265  rvm
+ 1266  rvm -v
+ 1267  rvm use 2.0.0@railstutorial_rails_4_0 --create --default
+ 1268  rvm install ruby-2.0.0-p481
+ 1269  rvm install 2.0.0 --with-openssl-dir=$HOME/.rvm/usr
+ 1270  rvm get head --autolibs=3
+ 1271  rvm requirements
+ 1272  software-properties-gtk 
+ 1273  sudo software-properties-gtk 
+ 1274  sudo apt-get update
+ 1275  sudo apt-get install gawk
+ 1276  rvm install 2.0.0 --with-openssl-dir=$HOME/.rvm/usr
+ 1277  rvm use 2.0.0@railstutorial_rails_4_0 --create --default
+ 1278  gem update --system 2.1.9
+ 1279  gem install rails --version 4.0.8
+ 1280  gem install rails --version 4.0.8 --no-ri --no-rdoc
+ 1281  sudo apt-get install libxslt-dev libxml2-dev libsqlite3-dev
+ 1282  sudo apt-get install 2.9.1+dfsg1-3ubuntu4.3
+ 1283  cd Doc
+ 1284  cd ~/Documents/
+ 1285  ls
+ 1286  rm ruby
+ 1287  rm -r ruby
+ 1288  y
+ 1289  mkdir ror
+ 1290  cd ror
+ 1291  rails new first_app
+ 1292  cd first_app/
+ 1293  subl Gemfile
+ 1294  bundle install
+ 1295  rails server
+ 1296  gem install execjs
+ 1297  rails server
+ 1298  sudo apt-get install nodejs
+ 1299  rails server
+ 1300  subl
+ 1301  sud oreboot now
+ 1302  reboot now
+ 1303  sudo reboot now
+ 1304  ping -c 3 google.com
+ 1305  killall -9 rails
+ 1306  nm-applet
+ 1307  cd Documents/
+ 1308  ls
+ 1309  cd ror
+ 1310  ls
+ 1311  cd first_app/
+ 1312  clear
+ 1313  rails generate scaffold Microposts content:string user_id:integer 
+ 1314  rake db_migrate
+ 1315  rake db:migrate
+ 1316  rails console
+ 1317  git add .
+ 1318  git commint -m "Complete demo app."
+ 1319  git commit -m "Complete demo app."
+ 1320  clear
+ 1321  heroku create
+ 1322  git push heroku master
+ 1323  heroku run rake db:migrate
+ 1324  bundle update rails
+ 1325  git push heroku master
+ 1326  rake assets:prcompile
+ 1327  rake assets:precompile
+ 1328  heroku run rake db:migrate
+ 1329  heroku run:detached rake db:migrate
+ 1330  git push herkou master
+ 1331  git push heroku  master
+ 1332  heroku create
+ 1333  git push heroku master
+ 1334  heroku run:detached rake db:migrate
+ 1335  kill -INT $(cat tmp/pids/server.pid)
+ 1336  clear
+ 1337  cd Documents/ror/first_app/
+ 1338  clear
+ 1339  rails server
+ 1340  cd /etc
+ 1341  ls
+ 1342  vim group-
+ 1343  cd groff/
+ 1344  cd ..
+ 1345  sudo vim group
+ 1346  cd Desktop/OS/assignment2/
+ 1347  clear
+ 1348  gcc myls.c
+ 1349  clear
+ 1350  ./a.out
+ 1351  ./a.out /home
+ 1352  ./a.out /home/ishit
+ 1353  ./a.out /home/ishit 0la
+ 1354  ./a.out /home/ishit -la
+ 1355  ./a.out /home/ishit -lah
+ 1356  cd Desktop/OS/assignment2/
+ 1357  clear
+ 1358  gcc status_library.c 
+ 1359  celar
+ 1360  ./a.out 1
+ 1361  ps -aux
+ 1362  ./a.out 3891
+ 1363  clear
+ 1364  ls -al /home/ishit
+ 1365  ping -c 3 google.com
+ 1366  clear
+ 1367  ifconfig
+ 1368  sudo add-apt-repository ppa:atareao/atareao
+ 1369  cd Desktop/OS/
+ 1370  ls
+ 1371  cd .
+ 1372  cd ..
+ 1373  cd Do
+ 1374  cd Documents/
+ 1375  clear
+ 1376  cd ror/
+ 1377  clear
+ 1378  ls
+ 1379  cd sample_app/
+ 1380  clear
+ 1381  git add .
+ 1382  git commit -m "Add static pages controller"
+ 1383  rails generate integration_test static_pages
+ 1384  bundle exec rspec spec/requests/static_pages_spec.rb 
+ 1385  mv app/views/layouts/application.html.erb hello.html.erb
+ 1386  bundle exec rspec spec/requests/static_pages_spec.rb 
+ 1387  mv hello.html.erb app/views/layouts/application.html.erb
+ 1388  bundle exec rspec spec/requests/static_pages_spec.rb 
+ 1389  git commit -m "Finish static pages."
+ 1390  git add .
+ 1391  git commit -m "Finish static pages."
+ 1392  git checkout master
+ 1393  git merge static_pages 
+ 1394  git push
+ 1395  git push herkou
+ 1396  git push heroku
+ 1397  heroku run detached rake db:migrate
+ 1398  heroku run:detached rake db:migrate
+ 1399  rake db:migrate
+ 1400  bundle exec rspec spec/requests/static_pages_spec.rb 
+ 1401  clear
+ 1402  bundle exec rspec spec/requests/static_pages_spec.rb 
+ 1403  clear
+ 1404  rails console
+ 1405  rm example_user.rb 
+ 1406  git add .
+ 1407  git commit -m "Add a full title elper"
+ 1408  git checkout -b filling-in-layout
+ 1409  cp rails.png app/assets/images/rails.png
+ 1410  bundle install
+ 1411  bundle update
+ 1412  clear
+ 1413  cd ..
+ 1414  rails new myapp 
+ 1415  clear
+ 1416  cd sample_app/
+ 1417  clear
+ 1418  bundle exec rspec spec/requests/static_pages_spec.rb 
+ 1419  rake routes
+ 1420  bundle exec rspec spec/requests/static_pages_spec.rb 
+ 1421  clear
+ 1422  rails generate controller Users new --no-test-framework
+ 1423  rails generate integration_test user_pages
+ 1424  clear
+ 1425  bundle exec rspec spec/requests/
+ 1426  git add .
+ 1427  git commit -m "Finish layout and routes"
+ 1428  clear
+ 1429  git push heroku
+ 1430  heroku logs
+ 1431  heroku open
+ 1432  git push heroku
+ 1433  heroku open
+ 1434  heroku rake db:migrate
+ 1435  heroku rake:detached db:migrate
+ 1436  heroku rake run:detached db:migrate
+ 1437  heroku run:detached rake db:migrate
+ 1438  git add .
+ 1439  git commit
+ 1440  git commit -m "Heroku not working"
+ 1441  git push heroku
+ 1442  clear
+ 1443  heroku run:detached rake db:migrate
+ 1444  clear
+ 1445  bundle install
+ 1446  clear
+ 1447  bundle update
+ 1448  bundle isntall
+ 1449  bundle install
+ 1450  sudo bundle update
+ 1451  gem install multipart-post -v '2.0.0'
+ 1452  sud ogem install multipart-post -v '2.0.0'
+ 1453  sudo gem install multipart-post -v '2.0.0'
+ 1454  sudo bundle update
+ 1455  rails generate controller sessions new create failure
+ 1456  bundle install
+ 1457  rails generate controller sessions new create failure
+ 1458  clear
+ 1459  cd Desktop/OS/assignment2/
+ 1460  clear
+ 1461  gcc myls.c 
+ 1462  ./a.out /home
+ 1463  ./a.out /home -l
+ 1464  clear
+ 1465  ./a.out /home -lah
+ 1466  ./a.out ../ -al
+ 1467  ls ../ -la
+ 1468  ./a.out ../ 1.c
+ 1469  ./a.out ../1.c
+ 1470  ls ../1.c
+ 1471  ls ../1.cyhj
+ 1472  cd Documents/
+ 1473  cd ror/
+ 1474  cd sample_app/
+ 1475  clear
+ 1476  rails server
+ 1477  rm tmp/pids/server.pid 
+ 1478  clear
+ 1479  ps -aux | grep rails
+ 1480  killall rails server
+ 1481  kill -9 14218
+ 1482  ps -aux | grep rails
+ 1483  kill -9 20470
+ 1484  rails server
+ 1485  clear
+ 1486  ps -aux grep
+ 1487  ps -aux | grep rails
+ 1488  kill -9 20474
+ 1489  clear
+ 1490  rails server
+ 1491  clear
+ 1492  unity
+ 1493  startx
+ 1494  cd Desktop/
+ 1495  ls
+ 1496  cd Documents/sqlitebrowser-sqlitebrowser-9bef8a8/
+ 1497  clear
+ 1498  cmake .
+ 1499  sudo apt-get install cmake
+ 1500  cmake .
+ 1501  sudo apt-get install qt
+ 1502  sudo apt-get install qtdeclarative5-dev
+ 1503  sudo apt-get install qtbase4-dev
+ 1504  sudo apt-get install qtbase5-dev
+ 1505  sudo apt-get clean
+ 1506  sudo apt-get -f install qtbase5-dev
+ 1507  sudo apt-get update
+ 1508  sudo apt-get upgrade
+ 1509  clear
+ 1510  sudo apt-get dist-upgrade
+ 1511  sudo apt-get install sqlite-database-browser
+ 1512  sudo apt-get install qt4-qmake
+ 1513  sudo apt-get install libsqlite3-dev
+ 1514  clear
+ 1515  cmake .
+ 1516  qmake
+ 1517  make
+ 1518  mysql
+ 1519  clear
+ 1520  git filter-branch --commit-filter '
+ 1521          if [ "$GIT_COMMITTER_NAME" = "<Old Name>" ];
+ 1522          then
+ 1523                  GIT_COMMITTER_NAME="<New Name>";
+ 1524                  GIT_AUTHOR_NAME="<New Name>";
+ 1525                  GIT_COMMITTER_EMAIL="<New Email>";
+ 1526                  GIT_AUTHOR_EMAIL="<New Email>";
+ 1527                  git commit-tree "$@";
+ 1528          else
+ 1529                  git commit-tree "$@";
+ 1530  cd Documents/ror/sample_app/
+ 1531  clear
+ 1532  git checkout master
+ 1533  git commit -m "."
+ 1534  git add .
+ 1535  git commit -m "."
+ 1536  clear
+ 1537  git checkout -b modeling-users
+ 1538  clear
+ 1539  bundle update
+ 1540  clear
+ 1541  bundle install
+ 1542  clear
+ 1543  rails generate model User name:string email:string
+ 1544  bundle update
+ 1545  bundle install
+ 1546  clear
+ 1547  rails generate model User name:string email:string
+ 1548  clear
+ 1549  rake db:mirate
+ 1550  rake db:migrate
+ 1551  rails console -sandbox
+ 1552  rails console --sandbox
+ 1553  clear
+ 1554  rails console --sandbox'
+ 1555  rails console --sandbox
+ 1556  clear
+ 1557  rake db:migrate
+ 1558  rake test:prepate
+ 1559  rake test:prepare
+ 1560  bundle exec rake test:prepare
+ 1561  bundle exec rake db:migrate
+ 1562  bundle exec rake test:prepare
+ 1563  rails -v
+ 1564  $ rvm use 2.0.0@railstutorial_rails_4_0 --create --default
+ 1565  rvm use 2.0.0@railstutorial_rails_4_0 --create --default
+ 1566  rvm get stable
+ 1567  rvm requirements
+ 1568  rvm install 2.0.0 --with-openssl-dir=$HOME/.rvm/usr
+ 1569  source ~/.rvm/scripts/rvm
+ 1570  type rvm | head -n 1
+ 1571  rvm install 2.0.0 --with-openssl-dir=$HOME/.rvm/usr
+ 1572  rvm use 2.0.0@railstutorial_rails_4_0 --create --default
+ 1573  rails pv
+ 1574  rails -v
+ 1575  bundle install
+ 1576  bundle update
+ 1577  Aclear
+ 1578  ls -l /home/ishit
+ 1579  clear
+ 1580  gcc /home/ishit/Desktop/OS/assignment2/myls.c 
+ 1581  ~/Desktop/OS/assignment2/a.out -l /home/ishit
+ 1582  ls -l /home/ishit
+ 1583  rails -v
+ 1584  bundle exec rake db:migrate
+ 1585  rails -v
+ 1586  clear
+ 1587  bundle install
+ 1588  bundle exec rake db:migrate
+ 1589  clear
+ 1590  which gem
+ 1591  bundle update
+ 1592  bundle exec rake db:migrate
+ 1593  clear
+ 1594  cd ..
+ 1595  ruby --version
+ 1596  gem --version
+ 1597  clear
+ 1598  cd ..
+ 1599  cd SSAD\ Project\ Repo/
+ 1600  clea
+ 1601  clear
+ 1602  git status
+ 1603  git pull
+ 1604  clear
+ 1605  git status
+ 1606  cd
+ 1607  git log
+ 1608  cd ~/Documents/SSAD\ Project\ Repo/
+ 1609  clear
+ 1610  git log
+ 1611  cat ~/.gitconfig 
+ 1612  git config --global user.name
+ 1613  git config --global user.name=Ishit Mehta
+ 1614  git config --global user.name="Ishit Mehta"
+ 1615  git config --global user.name ="Ishit Mehta"
+ 1616  git config --global user.name "Ishit Mehta"
+ 1617  clear
+ 1618  git config --global user.name "Ishit Mehta"
+ 1619  git config --list
+ 1620  git config --global user.name "Ishit Mehta"
+ 1621  git config --global --replace-all user.name "Ishit Mehta"
+ 1622  git config --list
+ 1623  cat ~/.gitconfig 
+ 1624  clear
+ 1625  git log
+ 1626  git config user.email 
+ 1627  git config user.name "Ishit Mehta"
+ 1628  git config user.email
+ 1629  git config user.name
+ 1630  git config --global user.email "ishit.mehta@research.iiit.ac.in"
+ 1631  git config --global user.email --replace-all "ishit.mehta@research.iiit.ac.in"
+ 1632  cat ~./git
+ 1633  cat ~/.gitconfig 
+ 1634  git config --global --replace-all user.email "ishit.mehta@research.iiit.ac.in"
+ 1635  cat ~/.gitconfig 
+ 1636  git log
+ 1637  git filter-branch --commit-filter '
+ 1638          if [ "$GIT_COMMITTER_NAME" = "" ];
+ 1639          then
+ 1640                  GIT_COMMITTER_NAME="Ishit Mehta";
+ 1641                  GIT_AUTHOR_NAME="Ishit Mehta";
+ 1642                  GIT_COMMITTER_EMAIL="ishit.mehta@research.iiit.ac.in";
+ 1643                  GIT_AUTHOR_EMAIL="ishit.mehta@research.iiit.ac.in";
+ 1644                  git commit-tree "$@";
+ 1645          else
+ 1646                  git commit-tree "$@";
+ 1647          fi' HEAD
+ 1648  git log
+ 1649  git filter-branch --commit-filter '
+ 1650          if [ "$GIT_COMMITTER_NAME" = "=" ];
+ 1651          then
+ 1652                  GIT_COMMITTER_NAME="Ishit Mehta";
+ 1653                  GIT_AUTHOR_NAME="Ishit Mehta";
+ 1654                  GIT_COMMITTER_EMAIL="ishit.mehta@research.iiit.ac.in";
+ 1655                  GIT_AUTHOR_EMAIL="ishit.mehta@research.iiit.ac.in";
+ 1656                  git commit-tree "$@";
+ 1657          else
+ 1658                  git commit-tree "$@";
+ 1659          fi' HEAD
+ 1660  git log
+ 1661  git push
+ 1662  git log
+ 1663  git filter-branch --commit-filter -f '
+ 1664          if [ "$GIT_COMMITTER_NAME" = "Ishit Mehta" ];
+ 1665          then
+ 1666                  GIT_COMMITTER_NAME="Ishit Mehta";
+ 1667                  GIT_AUTHOR_NAME="Ishit Mehta";
+ 1668                  GIT_COMMITTER_EMAIL="ishit.mehta@research.iiit.ac.in";
+ 1669                  GIT_AUTHOR_EMAIL="ishit.mehta@research.iiit.ac.in";
+ 1670                  git commit-tree "$@";
+ 1671          else
+ 1672                  git commit-tree "$@";
+ 1673          fi' HEAD
+ 1674  git log
+ 1675  git pull
+ 1676  git push
+ 1677  git pull master
+ 1678  git pull 
+ 1679  gitk HEAD @{u}
+ 1680  sudo apt-get install gitk
+ 1681  gitk HEAD @{u}
+ 1682  git push -f
+ 1683  clear
+ 1684  git pull
+ 1685  clear
+ 1686  git log
+ 1687  gitk
+ 1688  echo "Vihar Patel" >> contributors.txt 
+ 1689  cat contributors.txt 
+ 1690  git push
+ 1691  git log
+ 1692  git config user.name
+ 1693  git config user.name "Ishit Mehta"
+ 1694  git onfig --get-all 
+ 1695  git config --get-all 
+ 1696  git config --get-all user.name
+ 1697  git config --global user.name
+ 1698  git config --system user.name
+ 1699  git config --system user.name "Ishit Mehta"
+ 1700  sudo git config --system user.name "Ishit Mehta"
+ 1701  git config --system user.name
+ 1702  git config --replace-all user.name "Ishit Mehta"
+ 1703  git config --get-all user.name
+ 1704  git config --unset user.name "Ishit Mehta"
+ 1705  git config --get-all user.name
+ 1706  git config --unset user.name "Ishit Mehta"
+ 1707  git config --get-all user.name
+ 1708  git config --unset user.name "Ishit Mehta"
+ 1709  git config --get-all user.name
+ 1710  git config --listsudo apt-get
+ 1711  sudo apt-get install tickr
+ 1712  clear
+ 1713  tickr
+ 1714  cd Desktop/OS/
+ 1715  clear
+ 1716  cd assignment2/
+ 1717  clear
+ 1718  gcc myls.c 
+ 1719  ./a.out -l
+ 1720  gcc myls.c 
+ 1721  ./a.out -l
+ 1722  gcc myls.c 
+ 1723  ./a.out -lh
+ 1724  ./a.out -lh /home/ishit
+ 1725  gcc myls.c 
+ 1726  ./a.out -lh /home/ishit
+ 1727  gcc myls.c 
+ 1728  ./a.out -lh /home/ishit
+ 1729  gcc myls.c 
+ 1730  ./a.out -lh /home/ishit
+ 1731  ./a.out -lah /home/ishit
+ 1732  gcc myls.c 
+ 1733  ./a.out -lah /home/ishit
+ 1734  gcc myls.c 
+ 1735  ./a.out -lah /home/ishit
+ 1736  ./a.out -la /home/ishit
+ 1737  gcc myls.c 
+ 1738  ./a.out -la /home/ishit
+ 1739  ./a.out -l /home/ishit/
+ 1740  ./a.out -l /home/ishit/examples.desktop 
+ 1741  sud o./a.out -l /home/ishit/examples.desktop 
+ 1742  sudo ./a.out -l /home/ishit/examples.desktop 
+ 1743  clear
+ 1744  gcc myls.c 
+ 1745  sudo ./a.out -l /home/ishit/examples.desktop 
+ 1746  clear
+ 1747  gcc myls.c 
+ 1748  sudo ./a.out -l /home/ishit/examples.desktop 
+ 1749  clear
+ 1750  sudo ./a.out -l /home/ishit/examples.desktop 
+ 1751  gcc myls.c 
+ 1752  sudo ./a.out -l /home/ishit/examples.desktop 
+ 1753  gcc myls.c 
+ 1754  sudo ./a.out -l /home/ishit/examples.desktop 
+ 1755  sudo ./a.out -l /home/ishit/
+ 1756  clear
+ 1757  sudo ./a.out -l /home/ishit/
+ 1758  sudo ./a.out -al /home/ishit/
+ 1759  sudo ./a.out -hl /home/ishit/
+ 1760  clear
+ 1761  sudo ./a.out -hl /home/ishit/
+ 1762  clear
+ 1763  sudo ./a.out -hl /home/ishit/
+ 1764  sudo ./a.out -hl ../../
+ 1765  ls ~/Desktop/
+ 1766  ls -l ~/Desktop/
+ 1767  sudo ./a.out -hl ../../
+ 1768  clear
+ 1769  gcc myls.c 
+ 1770  clear
+ 1771  sudo ./a.out -hl ../../
+ 1772  ls -l ~/Desktop/
+ 1773  gcc myls.c 
+ 1774  sudo ./a.out -hl ../../
+ 1775  gcc myls.c 
+ 1776  sudo ./a.out -hl ../../
+ 1777  DAsudo apt-get install indicator-weather
+ 1778  sudo apt-get install indicator-weather
+ 1779  sudo apt-get install indicator-multiload
+ 1780  clear
+ 1781  indicator-multiload
+ 1782  sudo add-apt-repository ppa:jconti/recent-notifications
+ 1783  sudo apt-get install --reinstall ca-certificates
+ 1784  sudo add-apt-repository ppa:jconti/recent-notifications
+ 1785  sudo -E add-apt-repository ppa:jconti/recent-notifications
+ 1786  sudo -E apt-get update
+ 1787  sudo apt-get install indicator-notifications
+ 1788  sudo add-apt-repository ppa:atareao/atareao
+ 1789  sudo-E  add-apt-repository ppa:atareao/atareao
+ 1790  sudo -E add-apt-repository ppa:atareao/atareao
+ 1791  sudo -E apt-get update
+ 1792  sudo apt-get install touchpad-indicator
+ 1793  sudo apt-get install indicator-weather
+ 1794  indicator-multiload
+ 1795  cd Documents/practice/
+ 1796  clear
+ 1797  gcc 1.c
+ 1798  cd ..
+ 1799  mv 1.c practice/
+ 1800  clear
+ 1801  cd practice/
+ 1802  gcc 1.c 
+ 1803  ./a.out < test.txt 
+ 1804  gcc 1.c 
+ 1805  ./a.out < test.txt 
+ 1806  gcc 1.c 
+ 1807  ./a.out < test.txt 
+ 1808  gcc 1.c 
+ 1809  ./a.out < test.txt 
+ 1810  gcc 1.c 
+ 1811  ./a.out < test.txt 
+ 1812  gcc 1.c 
+ 1813  ./a.out < test.txt 
+ 1814  gcc 1.c 
+ 1815  ./a.out < test.txt 
+ 1816  gcc 1.c 
+ 1817  ./a.out < test.txt 
+ 1818  gcc 1.c 
+ 1819  ./a.out < test.txt 
+ 1820  gcc 1.c 
+ 1821  ./a.out < test.txt 
+ 1822  gcc 1.c 
+ 1823  ./a.out < test.txt 
+ 1824  gcc 1.c 
+ 1825  ./a.out < test.txt 
+ 1826  cd Documents/
+ 1827  mkdir practice
+ 1828  clae
+ 1829  clear
+ 1830  subl 1.c
+ 1831  sudo add-apt-repository ppa:satyajit-happy/themes
+ 1832  sudo -E add-apt-repository ppa:satyajit-happy/themes
+ 1833  sudo -E apt-get update
+ 1834  sudo apt-get install evolve-gtk-theme
+ 1835  clear
+ 1836  sudo -E add-apt-repository ppa:noobslab/icons
+ 1837  sudo -E apt-get update
+ 1838  sudo apt-get install malys-uniblack
+ 1839  clear
+ 1840  sudo apt-get install malys-uniblue
+ 1841  sudo -E add-apt-repository ppa:numix/ppa
+ 1842  sudo apt-get update
+ 1843  sudo apt-get install numix-icon-theme-circle numix-gtk-theme
+ 1844  clear
+ 1845  cd Documents/SSAD\ Project\ Repo/
+ 1846  clear
+ 1847  ls
+ 1848  cd documents/
+ 1849  ls
+ 1850  cd Week6/
+ 1851  ls
+ 1852  git add StatusTracker.xls 
+ 1853  clear
+ 1854  git commit -m "Status tracker update for week 6."
+ 1855  clear
+ 1856  git push
+ 1857  git log
+ 1858  clear
+ 1859  cd ..
+ 1860  git log
+ 1861  git config user.name
+ 1862  git config user.email
+ 1863  git config --replace-all user.email "ishit.mehta@research.iiit.ac.in"
+ 1864  git config user.email
+ 1865  clear
+ 1866  git commit --amend --author "Ishit Mehta <ishit.mehta@research.iiit.ac.in>"
+ 1867  Status Tracker Week 6
+ 1868  git log
+ 1869  git push
+ 1870  git -f push
+ 1871  git push -f
+ 1872  clear
+ 1873  gsettings set com.canonical.desktop.interface scrollbar-mode normal
+ 1874  ruby -v
+ 1875  rails -v
+ 1876  clear
+ 1877  echo ~path
+ 1878  echo $path
+ 1879  echo $PATH
+ 1880  clear
+ 1881  rails -v
+ 1882  gem install rails 4.0.8
+ 1883  sudo gem install rails 4.0.8
+ 1884  ruby -v
+ 1885  rvm use 2.0.0@railstutorial_rails_4_0 --create --default
+ 1886  source ~/.rvm/scripts/rvm
+ 1887  type rvm | head -n 1
+ 1888  rvm use 2.0.0@railstutorial_rails_4_0 --create --default
+ 1889  m -rf ~/.rvm
+ 1890  rm -rf ~/.rvm
+ 1891  sudo apt-get remove ruby
+ 1892  rm -rf /usr/local/lib/ruby
+ 1893  rm -rf /usr/lib/ruby
+ 1894  rm -f /usr/local/bin/ruby
+ 1895  rm -f /usr/bin/ruby
+ 1896  rm -f /usr/local/bin/irb
+ 1897  rm -f /usr/bin/irb
+ 1898  rm -f /usr/local/bin/gem
+ 1899  rm -f /usr/bin/gem
+ 1900  clear
+ 1901  ruby -v
+ 1902  clear
+ 1903  rails -v
+ 1904  gem
+ 1905  rvm
+ 1906  clear
+ 1907  curl -sSL https://get.rvm.io | bash -s stable
+ 1908  rvm requirements
+ 1909  rvm reload
+ 1910  rvm requirements
+ 1911  sudo apt-get install libyaml-dev
+ 1912  rvm install 2.0.0 --with-openssl-dir=$HOME/.rvm/usr
+ 1913  rvm use 2.0.0@railstutorial_rails_4_0 --create --default
+ 1914  which gem
+ 1915  gem update --system 2.1.9
+ 1916  clear
+ 1917  subl ~/.gemrc
+ 1918  gem install rails --version 4.0.8
+ 1919  clear
+ 1920  gedit rubyscript
+ 1921  mv rubyscript rubyscript.sh
+ 1922  clera
+ 1923  clear
+ 1924  rails -v
+ 1925  ruby -v
+ 1926  clear
+ 1927  which gem
+ 1928  clear
+ 1929  gedit rubyscript.sh
+ 1930  clear
+ 1931  ls
+ 1932  cd config/
+ 1933  ls
+ 1934  clear
+ 1935  ls
+ 1936  vim routes.rb 
+ 1937  bash --logout
+ 1938  indicator-touchpad
+ 1939  clear
+ 1940  rails -v
+ 1941  ruby -v
+ 1942  ls
+ 1943  cd Documents/
+ 1944  ls
+ 1945  cd ror/
+ 1946  ls
+ 1947  cd sample_app/
+ 1948  ls
+ 1949  bash --login
+ 1950  ls
+ 1951  cd config/
+ 1952  ls -la
+ 1953  vim routes.rb 
+ 1954  chmod routes.rb 777
+ 1955  chmod 777 routes.rb 
+ 1956  sudo chmod 777 routes.rb 
+ 1957  vim routes.rb 
+ 1958  cd ../app/controllers/
+ 1959  ls
+ 1960  vim users_controller.rb 
+ 1961  ls
+ 1962  vim static_pages_controller.rb 
+ 1963  rails server
+ 1964  bundle install
+ 1965  nm-applet
+ 1966  sudo reboot now
+ 1967  cd Documents/ror/sample_app/
+ 1968  clear
+ 1969  rails server
+ 1970  bundle install
+ 1971  sudo su
+ 1972  rails -v
+ 1973  bundle instal
+ 1974  bundle install
+ 1975  cd ..
+ 1976  rvm
+ 1977  rmv install ruby 2.0.0
+ 1978  rvm install ruby 2.0.0
+ 1979  clear
+ 1980  gem install rails 4.0.8 --no-document
+ 1981  gem install rails 4.0.8 --no-doc
+ 1982  which gem
+ 1983  gem update --system 2.1.9
+ 1984  gem update  2.1.9
+ 1985  vim ~/.gemrc
+ 1986  gem install rails --version 4.0.8
+ 1987  sudo gem install rails --version 4.0.8
+ 1988  rails -v
+ 1989  rvm requirements
+ 1990  gem install rails --version 4.0.8
+ 1991  rvm implode
+ 1992  sudo rvm implode
+ 1993  rvm implode
+ 1994  sudo su
+ 1995  startx
+ 1996  rails new game
+ 1997  ls
+ 1998  rm -rf game/
+ 1999  rails new game
+ 2000  ls
+ 2001  cd gam
+ 2002  cd game/
+ 2003  bundle install
+ 2004  vim Gemfile
+ 2005  bundle install
+ 2006  rails g scaffold questions name:string image1:string image2:string image3:sting image4:string marks:integer answer:string difficulty:integer level:integer
+ 2007  ls
+ 2008  rake routes
+ 2009  rails db:migrate
+ 2010  rake db:migrate
+ 2011  rails g scaffold questions name:string image1:string image2:string image3:string image4:string marks:integer answer:string difficulty:integer level:integer
+ 2012  rails g scaffold questions name:string image1:string image2:string image3:string image4:string marks:integer answer:string difficulty:integer level:integer --force
+ 2013  rake db:migrate
+ 2014  rake routes
+ 2015  rails server
+ 2016  rails g scaffold question name:string image1:string image2:string image3:string image4:string marks:integer answer:string difficulty:integer level:integer
+ 2017  rails destroy model questions
+ 2018  rails destroy controller questions
+ 2019  rails destroy view questions
+ 2020  rails destroy questions
+ 2021  rails s
+ 2022  rake routes
+ 2023  rake db:migrate
+ 2024  rails s
+ 2025  ls
+ 2026  cd ..
+ 2027  ls
+ 2028  cd ..
+ 2029  cd ror/
+ 2030  rm -rf game/
+ 2031  rails new picgame
+ 2032  cd picgame/
+ 2033  vim Gemfile
+ 2034  bundle install
+ 2035  rails g scaffold question name:string image1:string image2:string image3:string image4:string marks:integer answer:string difficulty:integer level:integer
+ 2036  rake routes
+ 2037  rake db:migrate
+ 2038  rails s
+ 2039  git init
+ 2040  git add .
+ 2041  git commit -m 'crud for questions'
+ 2042  git push
+ 2043  git remote add origin master
+ 2044  git push origin
+ 2045  git remote add .
+ 2046  git add .
+ 2047  ls
+ 2048  vim Gemfile
+ 2049  bundle install
+ 2050  rails g devise:install
+ 2051  cd config/environments/
+ 2052  vim development.rb 
+ 2053  rails s
+ 2054  history
+ 2055  history >> history.txt
