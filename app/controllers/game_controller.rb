@@ -1,13 +1,13 @@
 class GameController < ApplicationController
 	attr_accessor :random, :number
 	def initialize
-		@random = Question.all.sample(1)
-		@number = 0
+		@random = Question.all.order("level")
 	end
 
 	def index
 		#Validate logged in
 		@ques = @random
+		access_level
 		render :layout => 'application'
 	end
 
@@ -18,7 +18,7 @@ class GameController < ApplicationController
 			add_score
 			@add = score
 			@string = @string + @add.to_s
-			@number = @number + 1
+			increase_level
 			#Generate next question/ Question of higher difficulty
 		else
 			@string = "Wrong answer."
@@ -45,4 +45,13 @@ class GameController < ApplicationController
 		current_user.save!
 	end
 
+	def access_level
+		@number = current_user.level
+		return @number
+	end
+
+	def increase_level
+		current_user.level = current_user.level + 1 
+		current_user.save!
+	end
 end

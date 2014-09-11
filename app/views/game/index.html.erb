@@ -1,5 +1,6 @@
-<h1>Welcome to the Game page.</h1>
-<p><%=@ques[@number]["image1"]%> <%=@ques[@number]["image2"]%> <%=@ques[@number]["image3"]%> <%=@ques[@number]["image4"]%></p>
+<div class="center">
+<h1>Level <%= @ques[@number].level %></h1>
+<%= image_tag @ques[@number].photo.url %>
 
 <%= form_tag("game", method: "post") do %>
   <%= label_tag(:answer, "Answer: ") %>
@@ -7,4 +8,4 @@
   <%= hidden_field_tag(:correct, value = @ques[@number]["answer"]) %>
   <%= submit_tag("Go!") %>
 <% end %>
-
+</div>

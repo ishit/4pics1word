@@ -11,14 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140911191853) do
+ActiveRecord::Schema.define(version: 20140911230046) do
 
   create_table "questions", force: true do |t|
     t.string   "name"
-    t.string   "image1"
-    t.string   "image2"
-    t.string   "image3"
-    t.string   "image4"
     t.integer  "marks"
     t.string   "answer"
     t.integer  "difficulty"
@@ -47,6 +43,7 @@ ActiveRecord::Schema.define(version: 20140911191853) do
     t.integer  "score",                  default: 0
     t.string   "name"
     t.string   "username"
+    t.integer  "level"
   end
 
 end
