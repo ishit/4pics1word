@@ -4,30 +4,48 @@ class QuestionsController < ApplicationController
   # GET /questions
   # GET /questions.json
   def index
+    if not admin
+      redirect_to "/game"
+    end
     @questions = Question.all
   end
 
   def game
+    if not admin
+      redirect_to "/game"
+    end
     @ques = Question(:all).sample(1)
   end
   
   # GET /questions/1
   # GET /questions/1.json
   def show
+    if not admin
+      redirect_to "/game"
+    end
   end
 
   # GET /questions/new
   def new
+    if not admin
+      redirect_to "/game"
+    end
     @question = Question.new
   end
 
   # GET /questions/1/edit
   def edit
+    if not admin
+      redirect_to "/game"
+    end
   end
 
   # POST /questions
   # POST /questions.json
   def create
+    if not admin
+      redirect_to "/game"
+    end
     @question = Question.new(question_params)
 
     respond_to do |format|
@@ -44,6 +62,9 @@ class QuestionsController < ApplicationController
   # PATCH/PUT /questions/1
   # PATCH/PUT /questions/1.json
   def update
+    if not admin
+      redirect_to "/game"
+    end
     respond_to do |format|
       if @question.update(question_params)
         format.html { redirect_to @question, notice: 'Question was successfully updated.' }
@@ -58,6 +79,9 @@ class QuestionsController < ApplicationController
   # DELETE /questions/1
   # DELETE /questions/1.json
   def destroy
+    if not admin
+      redirect_to "/game"
+    end
     @question.destroy
     respond_to do |format|
       format.html { redirect_to questions_url }
@@ -76,4 +100,11 @@ class QuestionsController < ApplicationController
       params.require(:question).permit(:name, :marks, :answer, :difficulty, :level, :photo)
     end
 
+    def admin
+      if current_user.admin?
+        return false
+      else
+        return true
+      end
+    end
 end

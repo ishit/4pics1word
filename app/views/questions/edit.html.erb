@@ -1,6 +1,12 @@
+<% if current_user.admin? %>
+
 <h1>Editing question</h1>
 
 <%= render 'form' %>
 
 <%= link_to 'Show', @question %> |
 <%= link_to 'Back', questions_path %>
+
+<% else %>
+<h1>Admin authorization required!</h1>
+<% end %>
