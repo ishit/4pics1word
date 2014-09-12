@@ -75,4 +75,5 @@ class QuestionsController < ApplicationController
     def question_params
       params.require(:question).permit(:name, :marks, :answer, :difficulty, :level, :photo)
     end
+
 end

@@ -26,8 +26,7 @@ class GameController < ApplicationController
 			@string = @string + @add.to_s
 			#Redirect to index with try++
 		end
-		redirect_to(:back)
-		
+		redirect_to action: 'index' 
 	end
 
 	private
@@ -52,7 +51,7 @@ class GameController < ApplicationController
 	end
 
 	def increase_level
-		current_user.level = (current_user.level + 1)%6 
+		current_user.level = current_user.level + 1 
 		current_user.save!
 	end
 end

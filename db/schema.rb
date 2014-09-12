@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140911232838) do
+ActiveRecord::Schema.define(version: 20140912092002) do
 
   create_table "questions", force: true do |t|
     t.string   "name"
@@ -47,6 +47,7 @@ ActiveRecord::Schema.define(version: 20140911232838) do
     t.string   "users"
     t.string   "provider"
     t.string   "uid"
+    t.integer  "attempt",                default: 0
   end
 
 end

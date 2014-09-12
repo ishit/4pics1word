@@ -1,13 +1,12 @@
 <div class="center">
-<h1>Level <%= @ques[@number].level %></h1>
-<%= image_tag @ques[@number].photo.url %>
+<h1>Level <%= current_user.level %></h1>
+<%= image_tag @ques[current_user.level].photo.url %>
 
 <%= form_tag("game", method: "post") do %>
   <%= label_tag(:answer, "Answer: ") %>
   <%= text_field_tag(:answer) %>
-  <%= hidden_field_tag(:correct, value = @ques[@number]["answer"]) %>
+  <%= hidden_field_tag(:correct, value = @ques[current_user.level]["answer"]) %>
   <%= submit_tag("Go!") %>
 <% end %>
 </div>
-
 <%= render 'layout' %>
