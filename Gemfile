@@ -6,6 +6,7 @@ gem 'carrierwave'
 gem 'devise'
 gem 'bootstrap-sass', '2.3.2.0'
 gem "paperclip", "~> 4.2"
+gem 'omniauth-facebook'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 

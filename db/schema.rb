@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140911230046) do
+ActiveRecord::Schema.define(version: 20140911232838) do
 
   create_table "questions", force: true do |t|
     t.string   "name"
@@ -43,7 +43,10 @@ ActiveRecord::Schema.define(version: 20140911230046) do
     t.integer  "score",                  default: 0
     t.string   "name"
     t.string   "username"
-    t.integer  "level"
+    t.integer  "level",                  default: 1
+    t.string   "users"
+    t.string   "provider"
+    t.string   "uid"
   end
 
 end
