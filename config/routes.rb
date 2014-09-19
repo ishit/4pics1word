@@ -8,6 +8,9 @@ Picgame::Application.routes.draw do
   root :to => 'game#index'
   match '/game', to: 'game#index', via: 'get'
   post '/game' => 'game#evaluate'
+  get '/leaderboard' => 'leaderboard#index'
+  get '/invite' => 'invite#index'
+  post '/invite' => 'invite#done'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

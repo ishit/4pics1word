@@ -1,0 +1,9 @@
+<html>
+<div>
+<%= form_tag("invite#done", method: "post") do %>
+  <%= label_tag("Email ID: " , "Email ID: ") %>
+  <%= text_field_tag(:id) %>
+  <%= submit_tag("Invite !") %>
+<% end %>
+</div>
+</html>

@@ -14,9 +14,11 @@
           <nav>
             <ul class="nav pull-right">
               <li><%= link_to "Home",    '/' %></li>
+	      <li><%= link_to "Leaderboard", '/leaderboard'%></li>
               <% if user_signed_in? %>
               <li><%= link_to current_user.name, edit_user_registration_path%></li>
               <li><%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %></li>
+              <li><%= link_to "Invite", "/invite" %> </li>
               <% else %>
               <li><%= link_to "Sign up", new_user_registration_path %></li>
               <li><%= link_to "Login", new_user_session_path %></li>

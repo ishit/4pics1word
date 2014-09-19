@@ -1,5 +1,5 @@
 class LeaderboardController < ApplicationController
 	def index
-		@all = User.order('User.score DESC')
+		@all = User.order("score desc").limit(10)
 	end
 end
