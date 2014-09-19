@@ -1,7 +1,7 @@
 class GameController < ApplicationController
 	attr_accessor :random, :number
 	def initialize
-		@random = Question.all.order("level")
+		@random = Question.all.shuffle
 	end
 
 	def index
@@ -10,7 +10,6 @@ class GameController < ApplicationController
 		access_level
 		render :layout => 'application'
 	end
-
 	def evaluate
 		if params[:answer] == params[:correct]
 			@string = "Right answer."
@@ -49,9 +48,9 @@ class GameController < ApplicationController
 		@number = current_user.level
 		return @number
 	end
-
 	def increase_level
 		current_user.level = current_user.level + 1 
 		current_user.save!
 	end
+
 end
