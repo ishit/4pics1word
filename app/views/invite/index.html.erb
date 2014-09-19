@@ -1,9 +1,9 @@
 <html>
-<div>
+<div class = "center hero-unit">
 <%= form_tag("invite", method: "post") do %>
-  <%= label_tag("Email ID: ") %>
-  <%= text_field_tag(:id) %>
-  <%= submit_tag("Invite !") %>
+  <%= label_tag("Email Address") %>
+  <%= text_field_tag(:id) %><br />
+  <%= submit_tag("Invite!") %>
 <% end %>
 </div>
 </html>

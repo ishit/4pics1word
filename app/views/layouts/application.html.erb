@@ -14,9 +14,10 @@
           <nav>
             <ul class="nav pull-right">
               <li><%= link_to "Home",    '/' %></li>
-	      <li><%= link_to "Leaderboard", '/leaderboard'%></li>
+	            <li><%= link_to "Leaderboard", '/leaderboard'%></li>
+              <li><%= link_to "View Previous Scores", '/leaderboard'%></li>
               <% if user_signed_in? %>
-              <li><%= link_to current_user.name, edit_user_registration_path%></li>
+              <li><%= link_to "#{current_user.name} - Profile", edit_user_registration_path%></li>
               <li><%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %></li>
               <li><%= link_to "Invite", "/invite" %> </li>
               <% else %>
@@ -34,7 +35,8 @@
 </div>
 </body>
 <% if user_signed_in? %>
-<div class >Your score : <%= current_user.score %></div>
+<div class = "center">Your score : <%= current_user.score %></div>
+<div class = "center">Attempts : <%= current_user.attempt %></div>
 <% end %>
 <footer class="footer">
   <%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) %>

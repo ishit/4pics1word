@@ -1,15 +1,11 @@
 <%= stylesheet_link_tag "leaderboard" %>
 <h1>Leaderboard</h1>
-                <table class="table table-striped" >
-		 <thead>
-		    <tr>
-                        <th>
-                            Name
-                        </th>
-                        <th>
-                            Score
-                        </th>
-                    </tr>
+<table class="table table-striped" >
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Score </th>
+        </tr>
 		</thead>
 		<tbody>
 		    <% @all.each do |i|%>
@@ -19,5 +15,25 @@
 			</tr>			
 		    <% end %>
 		</tbody>
-                </table>
+</table>
+<br>
+<div class = "center">
+<h4>Your Previous Scores</h4>
+<table class="table table-striped" >
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Score </th>
+        </tr>
+		</thead>
+		<tbody>
+		    <% @my.each do |i|%>
+			<tr>
+				<td><%= i.name%></td>
+				<td><%= i.score%></td>
+			</tr>			
+		    <% end %>
+		</tbody>
+</table>
+</div>
             

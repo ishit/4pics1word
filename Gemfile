@@ -8,8 +8,13 @@ gem 'bootstrap-sass', '2.3.2.0'
 gem "paperclip", "~> 4.2"
 gem 'omniauth-facebook'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
-
+group :development do
+  gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 

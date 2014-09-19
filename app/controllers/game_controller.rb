@@ -1,5 +1,5 @@
 class GameController < ApplicationController
-	attr_accessor :random, :number
+	attr_accessor :random, :number, :attempt, :score
 	def initialize
 		@random = Question.all.shuffle
 	end
@@ -11,6 +11,8 @@ class GameController < ApplicationController
 		render :layout => 'application'
 	end
 	def evaluate
+		@score = current_user.score
+		@attempt = current_user.attempt
 		if params[:answer] == params[:correct]
 			@string = "Right answer."
 			add_score
@@ -21,11 +23,31 @@ class GameController < ApplicationController
 		else
 			@string = "Wrong answer."
 			decrease_score
+			increase_attempts
+			if @attempt >= 3
+				player = Leaderboard.new
+				player.name = current_user.name
+				player.score = current_user.score
+				player.save!
+				gameover
+			end
 			@add = score 
 			@string = @string + @add.to_s
-			#Redirect to index with try++
 		end
-		redirect_to action: 'index' 
+
+		if @attempt <= 2
+			redirect_to '/game' 
+		end
+	end
+
+	def new
+		newGame
+		redirect_to '/newgame'
+	end
+
+	def gameover
+		newGame
+		render :layout => 'gameover'
 	end
 
 	private
@@ -50,6 +72,20 @@ class GameController < ApplicationController
 	end
 	def increase_level
 		current_user.level = current_user.level + 1 
+		current_user.save!
+	end
+
+	def increase_attempts
+		@attempt = current_user.attempt 
+		@attempt = @attempt + 1
+		current_user.attempt = @attempt
+		current_user.save!
+	end
+
+	def newGame
+		current_user.level = 0
+		current_user.score  = 0
+		current_user.attempt = 0
 		current_user.save!
 	end
 

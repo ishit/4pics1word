@@ -4,7 +4,7 @@ class InviteController < ApplicationController
 
 	def done
 		FriendInvite.invite(current_user, params[:id]).deliver
-		redirect_to :action => 'game'
+		redirect_to '/'
 	end
 
 end
