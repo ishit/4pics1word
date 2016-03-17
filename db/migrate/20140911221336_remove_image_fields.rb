@@ -6,6 +6,6 @@ class RemoveImageFields < ActiveRecord::Migration
 	 	remove_column :questions, :image4
 	 	remove_column :questions, :marks
 	 	remove_column :questions, :difficulty
-	 	add_column	:users, :level, :integer
+	 	add_column	:users, :level, :integer, default: 1
 	end
 end
